@@ -1,13 +1,130 @@
 {
-  "generated": "2026-11-15T16:16+07:00",
-  "errors": {
-    "weather forecast (Open-Meteo)": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+  "generated": "2026-11-15T16:19+07:00",
+  "errors": {},
+  "weather": {
+    "latitude": 18.80492,
+    "longitude": 99.02655,
+    "generationtime_ms": 0.8770227432250977,
+    "utc_offset_seconds": 25200,
+    "timezone": "Asia/Bangkok",
+    "timezone_abbreviation": "GMT+7",
+    "elevation": 313.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "°C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-11-15T16:15",
+      "interval": 900,
+      "temperature_2m": 28.6,
+      "relative_humidity_2m": 64,
+      "precipitation": 0.0,
+      "weather_code": 2
+    },
+    "daily_units": {
+      "time": "iso8601",
+      "weather_code": "wmo code",
+      "temperature_2m_max": "°C",
+      "temperature_2m_min": "°C",
+      "precipitation_sum": "mm",
+      "precipitation_probability_max": "%",
+      "wind_speed_10m_max": "km/h"
+    },
+    "daily": {
+      "time": [
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "weather_code": [
+        51,
+        51,
+        1,
+        2,
+        51,
+        1,
+        80,
+        51,
+        51,
+        53
+      ],
+      "temperature_2m_max": [
+        23.5,
+        27.9,
+        28.2,
+        29.4,
+        29.7,
+        30.3,
+        30.5,
+        28.7,
+        28.7,
+        28.3
+      ],
+      "temperature_2m_min": [
+        18.4,
+        20.2,
+        18.8,
+        19.8,
+        21.1,
+        21.7,
+        22.2,
+        22.7,
+        22.2,
+        21.4
+      ],
+      "precipitation_sum": [
+        0.1,
+        0.3,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        5.1,
+        1.8,
+        2.2,
+        4.4
+      ],
+      "precipitation_probability_max": [
+        78,
+        61,
+        0,
+        0,
+        2,
+        37,
+        49,
+        59,
+        22,
+        33
+      ],
+      "wind_speed_10m_max": [
+        7.7,
+        13.2,
+        8.6,
+        8.0,
+        7.5,
+        5.2,
+        9.5,
+        3.3,
+        5.7,
+        6.0
+      ]
+    }
   },
-  "weather": null,
   "air": {
     "latitude": 18.800003,
     "longitude": 99.0,
-    "generationtime_ms": 0.5593299865722656,
+    "generationtime_ms": 0.7562637329101562,
     "utc_offset_seconds": 25200,
     "timezone": "Asia/Bangkok",
     "timezone_abbreviation": "GMT+7",
@@ -549,7 +666,16 @@
     "published": "Tue, 07 Jul 2026",
     "summary": "Exercise normal precaution in Thailand . Some areas have increased risk. Read the entire Travel Advisory. Thailand is generally a safe destination for travelers. Review our Travel Guidance for Thailand to learn how to prepare for a safe trip. Exercise Increased Caution near the Thai-Cambodian border due to the risk of armed conflict . Exercise Increased Caution in the Yala , Pattani , and Narathiwat provinces due to the risk of unrest ."
   },
-  "flood": null,
+  "flood": {
+    "level": "LOW",
+    "reasons": [
+      "Rain last 3 days: 0 mm",
+      "Forecast rain next 3 days: 0 mm",
+      "Heaviest forecast day (7 days): 5 mm",
+      "Modelled river discharge roughly stable"
+    ],
+    "trend": 1.1333333333333335
+  },
   "news": {
     "Visa & immigration": [
       {
@@ -579,6 +705,12 @@
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG5xLWdRR2w1WUxOaWlSUTlFdWdOMkQzSlZkM0JEVmpSbUhfYzJpS3JBbXEtbEJGQ2pOSWhSYkVNU0NWcUlObzlNTWRVY3NJa056XzZUc0pibXo3dXhHQ1l0SjB2QXAtVjdBbm94Nm1JeDRnMkgwOEJ2LXFtMC1qMFZhbGtuc1lJMVNkbkRKR1cxQ3VEdVptcVMwMDEzWEpYZVM4?oc=5",
         "published": "Sun, 15 Nov 2026 07:24:00 GMT",
         "source": "Bangkok Post"
+      },
+      {
+        "title": "Weak mag. 2.2 earthquake - 98 km south of Nansang, Shan State, Myanmar, on Sunday, Nov 15, 2026, at 12:45 pm (GMT +6:30) - Volcano Discovery",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRGVhUEpnRVFyMjZaZkM1d3dyUTE5TFdvNUhZUTRFaDVRQWxCQU1waE95MjFQLVZSZUxwNHY0dThlaG9ySzd2b2VsdmwtSWRxYUFHbWRackJNbU5kUVgyYlFRdjAxVm4tUG56Ql9EMXlTUThqRXh4TmctdHFKa3cteWxMQVVUTDJnTkFra0tUczVpb2RSbHdJUGxNWmd3R0tNb093c1V3b1dzVTNYQ0Yxb0lhYw?oc=5",
+        "published": "Sun, 15 Nov 2026 06:40:33 GMT",
+        "source": "Volcano Discovery"
       },
       {
         "title": "Thailand Arrests Two Chinese Nationals Over $92 Million Crypto Multilevel Fraud - bloomingbit",
@@ -615,12 +747,6 @@
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTVZR1lJQ1Z6cUIyZFNLcEdBVHhfY1FpQ0thUDRzTlpFZFJMNWxBQnpza1BMdUFSNUhJVmFhMTBJcGFIRlJ2UGJwdEo0eS1UcUI1bGZzVHNFdEpBWGJ0ckR1bHJ2S3AtNjdzcnNSME5LQnRzWXlhMU9HMklYdDJ4NjhGMEU5VklTUVB4RFY2LVp4Uy10N0xSTjZSNkJGY1dYdV9Hc3VhU0gzZDJZc19HcXhKRQ?oc=5",
         "published": "Sat, 14 Nov 2026 11:54:41 GMT",
         "source": "Volcano Discovery"
-      },
-      {
-        "title": "1,500 Sungai Buloh flood-hit families receive nearly RM1mil in aid, says Ramanan - The Star",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0stYS1QOXRfSnVFd2lTVkpLUWMtTTRyMml4SG8xYnVYWmgwY1VlWVZ4VnlHX0VHeEVnbGtGUEtPZFJjcFY5TzBJWWxaS1RaMHZra3dzX2x1WWZUUk40SVk5RmFxOWdDeDRxZDlvQXdMb0hjMlZPblAtLWl0b0luc0hvQ2RrYjc4YjFvdXRFRjY2OFQ4bWJNT2pvblRJemJsTUNPS0VBRkR1d3NuREdCQkNfcUhuWDJLWV9DLUFGei00dEZMeTlj?oc=5",
-        "published": "Sat, 14 Nov 2026 09:50:00 GMT",
-        "source": "The Star"
       }
     ],
     "Haze & smoke": [
