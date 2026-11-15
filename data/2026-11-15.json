@@ -1,130 +1,13 @@
 {
-  "generated": "2026-11-15T16:19+07:00",
-  "errors": {},
-  "weather": {
-    "latitude": 18.80492,
-    "longitude": 99.02655,
-    "generationtime_ms": 0.8770227432250977,
-    "utc_offset_seconds": 25200,
-    "timezone": "Asia/Bangkok",
-    "timezone_abbreviation": "GMT+7",
-    "elevation": 313.0,
-    "current_units": {
-      "time": "iso8601",
-      "interval": "seconds",
-      "temperature_2m": "°C",
-      "relative_humidity_2m": "%",
-      "precipitation": "mm",
-      "weather_code": "wmo code"
-    },
-    "current": {
-      "time": "2026-11-15T16:15",
-      "interval": 900,
-      "temperature_2m": 28.6,
-      "relative_humidity_2m": 64,
-      "precipitation": 0.0,
-      "weather_code": 2
-    },
-    "daily_units": {
-      "time": "iso8601",
-      "weather_code": "wmo code",
-      "temperature_2m_max": "°C",
-      "temperature_2m_min": "°C",
-      "precipitation_sum": "mm",
-      "precipitation_probability_max": "%",
-      "wind_speed_10m_max": "km/h"
-    },
-    "daily": {
-      "time": [
-        "2026-11-12",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20",
-        "2026-11-21"
-      ],
-      "weather_code": [
-        51,
-        51,
-        1,
-        2,
-        51,
-        1,
-        80,
-        51,
-        51,
-        53
-      ],
-      "temperature_2m_max": [
-        23.5,
-        27.9,
-        28.2,
-        29.4,
-        29.7,
-        30.3,
-        30.5,
-        28.7,
-        28.7,
-        28.3
-      ],
-      "temperature_2m_min": [
-        18.4,
-        20.2,
-        18.8,
-        19.8,
-        21.1,
-        21.7,
-        22.2,
-        22.7,
-        22.2,
-        21.4
-      ],
-      "precipitation_sum": [
-        0.1,
-        0.3,
-        0.0,
-        0.0,
-        0.3,
-        0.0,
-        5.1,
-        1.8,
-        2.2,
-        4.4
-      ],
-      "precipitation_probability_max": [
-        78,
-        61,
-        0,
-        0,
-        2,
-        37,
-        49,
-        59,
-        22,
-        33
-      ],
-      "wind_speed_10m_max": [
-        7.7,
-        13.2,
-        8.6,
-        8.0,
-        7.5,
-        5.2,
-        9.5,
-        3.3,
-        5.7,
-        6.0
-      ]
-    }
+  "generated": "2026-11-15T16:35+07:00",
+  "errors": {
+    "weather forecast (Open-Meteo)": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
   },
+  "weather": null,
   "air": {
     "latitude": 18.800003,
     "longitude": 99.0,
-    "generationtime_ms": 0.7562637329101562,
+    "generationtime_ms": 0.6145238876342773,
     "utc_offset_seconds": 25200,
     "timezone": "Asia/Bangkok",
     "timezone_abbreviation": "GMT+7",
@@ -666,16 +549,7 @@
     "published": "Tue, 07 Jul 2026",
     "summary": "Exercise normal precaution in Thailand . Some areas have increased risk. Read the entire Travel Advisory. Thailand is generally a safe destination for travelers. Review our Travel Guidance for Thailand to learn how to prepare for a safe trip. Exercise Increased Caution near the Thai-Cambodian border due to the risk of armed conflict . Exercise Increased Caution in the Yala , Pattani , and Narathiwat provinces due to the risk of unrest ."
   },
-  "flood": {
-    "level": "LOW",
-    "reasons": [
-      "Rain last 3 days: 0 mm",
-      "Forecast rain next 3 days: 0 mm",
-      "Heaviest forecast day (7 days): 5 mm",
-      "Modelled river discharge roughly stable"
-    ],
-    "trend": 1.1333333333333335
-  },
+  "flood": null,
   "news": {
     "Visa & immigration": [
       {
@@ -700,6 +574,12 @@
       }
     ],
     "Risks & safety": [
+      {
+        "title": "Myanmar researcher and seismologist Hla Hla Aung talks to the Philippine News Agency and People’s Television on Sunday (Nov. 15, 2026). She is the recipient of the 2026 ASEAN Prize, awarded at the opening ceremony of the 49th ASEAN Summit and Rel - Facebook",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOUQtQmd6cFVhUUhyYXZSYWstQ0xxRzR6cWxtOWEzbmR2UzR0NzI5RVA1LWQ5dDN6YnJGNlJGdnZQVU11cU1BLVU3b0FlNTR4SEpLNEZSLVotcHdXUE96LUx2cUdzQnZfM3FXUGEyWXFqN0NuemdWQ0Y3OXFOdnRSM1NOQjdDSHN6RnlJZU5EQktGQlh6YnIzSENIQ20tMjBrRkcza0I3ZXotQlN4V0VaMmZRem9WNUlaRHQ2UWJmV1d3M0hhelpnN3pkYnJMZmtWbmtWTQ?oc=5",
+        "published": "Sun, 15 Nov 2026 09:19:34 GMT",
+        "source": "Facebook"
+      },
       {
         "title": "Surveillance cameras, tyres torched in Narathiwat - Bangkok Post",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZG5xLWdRR2w1WUxOaWlSUTlFdWdOMkQzSlZkM0JEVmpSbUhfYzJpS3JBbXEtbEJGQ2pOSWhSYkVNU0NWcUlObzlNTWRVY3NJa056XzZUc0pibXo3dXhHQ1l0SjB2QXAtVjdBbm94Nm1JeDRnMkgwOEJ2LXFtMC1qMFZhbGtuc1lJMVNkbkRKR1cxQ3VEdVptcVMwMDEzWEpYZVM4?oc=5",
@@ -740,12 +620,6 @@
         "title": "Weak mag. 2.8 earthquake - 98 km south of Nansang, Shan State, Myanmar, on Sunday, Nov 15, 2026, at 01:06 am (GMT +6:30) - Volcano Discovery",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa3FqQjF1aDdfbEw5T0pGeFVFWUlQZk5SV1ktVV9TNlVMbWZCNlVDNTVZcWRXbUZQRC1aTlpxSW9XZjUxUEVxanZ4YkdWY2RLNVFSbDdoSE83UXN6cEtZZW5makdfZ2x3UjZyR1Utc1d5YlNKVl9zQnNobUV0SGlpTmRPUTkwMDN5VnMxQjhHc3dZc0N6aUUxdWt1dExDaDVLMlJZbll0QkFaTzBoX2t5T1ZDTQ?oc=5",
         "published": "Sat, 14 Nov 2026 18:50:54 GMT",
-        "source": "Volcano Discovery"
-      },
-      {
-        "title": "Weak mag. 2.5 earthquake - 95 km south of Nansang, Shan State, Myanmar, on Saturday, Nov 14, 2026, at 06:03 pm (GMT +6:30) - Volcano Discovery",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTVZR1lJQ1Z6cUIyZFNLcEdBVHhfY1FpQ0thUDRzTlpFZFJMNWxBQnpza1BMdUFSNUhJVmFhMTBJcGFIRlJ2UGJwdEo0eS1UcUI1bGZzVHNFdEpBWGJ0ckR1bHJ2S3AtNjdzcnNSME5LQnRzWXlhMU9HMklYdDJ4NjhGMEU5VklTUVB4RFY2LVp4Uy10N0xSTjZSNkJGY1dYdV9Hc3VhU0gzZDJZc19HcXhKRQ?oc=5",
-        "published": "Sat, 14 Nov 2026 11:54:41 GMT",
         "source": "Volcano Discovery"
       }
     ],
@@ -789,12 +663,6 @@
         "source": "Thaiger"
       },
       {
-        "title": "Chiang Mai Ram Medical Business Public Company Limited (CMR.BK) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04Z1NJQUlzYU1IT1BQWFRxYUNQOThEdkxaNVgxMEw1TjNjUDFReko1RmpzNE5PNkpZRUZtM21MemVmaUo1Z3lUbzZoOEdEMm1HQjRLQ1JtUFZjVWVNdkhZOTRVYm4?oc=5",
-        "published": "Sat, 14 Nov 2026 12:44:23 GMT",
-        "source": "Yahoo! Finance Canada"
-      },
-      {
         "title": "Kerzner Announces First Thailand Resort in Chiang Mai - TravelBiz Monitor",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYk1oelhEZ0ZmVkdlNnNJUU1qTFJUZ1dtelNEUmxFMGJSS2c5VFJIcXh6ZXQ2V3FaQ3BMaHFrekppTTYtaDBHaXk5SVJsbVlPRDhtUlNGOGFtbFRLVkExVzhiVDZfSkoxTFFfelNtYTl4dHRUWERnZDhXVEtVV1B2dVVLR1JFYmVOZ3VmWWd1ZUtCdDgxaU1QM1VuQQ?oc=5",
         "published": "Sat, 14 Nov 2026 10:51:13 GMT",
@@ -817,6 +685,12 @@
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTGo2WjdtUDF4Wkl3RkNWVzJvRWRIUENFX2hNTEZhT2tDRm82U1lTU243UFZ4TWlDNlRMWnBadTFneWwyMEJHeUFMZzRuV3ZDMVFxRE43OHRiN2I2Z3VKdTEtZkxzcDlzUFZtS0lzTy1uLXV2aEZ3NkhNTTZaY1h0TUJ6TjZScVlxQ2xRdVFObVlVeHBSYmt4bW9USFd1ZWNBR2J4MGJvSmRSdTJS?oc=5",
         "published": "Sat, 14 Nov 2026 08:02:24 GMT",
         "source": "Thaiger"
+      },
+      {
+        "title": "Cool mountain air and seas of mist await at Doi Inthanon and Phu Chi Fa - Nation Thailand",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1EUG1TSUNjakFKRlNFQVlaczhYSkYwYUhlMGdWTFd3QW4zVUIyTDRWcE54ZVprOTZreW9HR2Z5eTNUZ28xeXEtUGx3aXNLN1doXzRsaXV1TEZOdmNLbUcxcW1R?oc=5",
+        "published": "Sat, 14 Nov 2026 04:53:00 GMT",
+        "source": "Nation Thailand"
       }
     ],
     "Interesting in Chiang Mai": [
@@ -863,10 +737,10 @@
         "source": "Chiang Mai Citylife"
       },
       {
-        "title": "The ultimate guide to the Yi Peng Lantern Festival - Time Out Worldwide",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fWlI3cHpDeHdlQmQyRjJLMWkyWkFRMVljWjk0djBwS3VwME5IeXktUlltTmdNUTFGWnpDenJaMGR3VGJBeHNvYkFXS3NpWlMwc2twTE1FVEVjd2gySkR2d3BUdUE1WUk0RE5z?oc=5",
-        "published": "Fri, 13 Nov 2026 17:00:00 GMT",
-        "source": "Time Out Worldwide"
+        "title": "Kerzner International Expands Rare Finds Collection Into Asia With Vana Som Botanical Resort in Chiang Mai, Thailand - Hotel Online",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQlAyUExSNzRsb3JrVUFPU2E4c3lzb0VZczRjSnIzWkFWUTlhUzAzYVpTaHJ0TDQwUDhwOTlTSG93anNRRFd6dTliVGc5djlTU1hvbWJ3UE1HZUV0Smc1R3VFWENSSGlwM1RDODdybUs2bVlnWVNNUXVEckI5aTAxSHpOT1ByeHdWX1ZURW9tbGdtanlvRGd3aUNKVS1laGZXbXQzN3ZyLUlrdmpiV3JMbGhmOE51NDlON1FKdlJTak5aZ1E3cjJhYkdxZ1NsNjdTSldiVmZJTVpOR2NSUERFVm9uWQ?oc=5",
+        "published": "Fri, 13 Nov 2026 17:09:37 GMT",
+        "source": "Hotel Online"
       }
     ]
   }
